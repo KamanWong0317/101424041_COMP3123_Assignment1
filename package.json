@@ -1,0 +1,15 @@
+{
+  "name": "101424041_COMP3123_Assignment1",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "main": "server.js",
+  "requires": true,
+  "packages": {},
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0",
+    "mongoose": "^8.7.1",
+    "nodeJS": "^1.0.0"
+  }
+}
