@@ -11,5 +11,8 @@
     "express-validator": "^7.2.0",
     "mongoose": "^8.7.1",
     "nodeJS": "^1.0.0"
-  }
+  },
+  "scripts": {
+  "start": "node server.js"
+}
 }
