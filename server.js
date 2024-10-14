@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const port = process.env.PORT || 4000;
 
 // import employee, user Routes
 const userRoutes = require('./routes/UserRoutes.js');
@@ -38,6 +39,6 @@ app.use((err,req,res,next) => {
             message: 'Internal Server Error'});
   });
 
-app.listen(8081, () => {
+app.listen(port, () => {
     console.log("Server is listening on port 8081");
 });
