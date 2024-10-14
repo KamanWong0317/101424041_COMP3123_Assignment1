@@ -1,6 +1,6 @@
 // exported
 const express = require('express');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const { body, validationResult } = require('express-validator');
 const router = express.Router();
 const userModel = require('../models/UsersModel.js');
